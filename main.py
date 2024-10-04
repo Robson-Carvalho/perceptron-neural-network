@@ -61,13 +61,23 @@ with open('training.txt', 'r') as file:
 model = Perceptron()
 model.training(inputs, outputs, 0.01, 100)
 
-tests = [[-0.3565, 0.0620, 5.9891], [-0.7842, 1.1267, 5.5912]] 
-results = [-1,1]
+tests = []
+results = []  
+
+with open('test.txt', 'r') as file:
+    for line in file:
+        values = line.split()
+        
+        if len(values) >= 5:  
+            data = [float(values[i]) for i in range(1, 4)]  
+            tests.append(data)  
+            results.append(float(values[4]))
 
 for i in range(0, len(tests)):
     v = model.operation(tests[i])
-    
-    print(f"Saida {v}")
-    print(f"Resultado esperado {results[i]}")
+    print(f"Teste {i+1}")
+    print(f"Saida: {v}")
+    print(f"Resultado esperado: {results[i]}\n")
+
 
 
