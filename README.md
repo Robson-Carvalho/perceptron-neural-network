@@ -77,7 +77,7 @@ Para executar o script, certifique-se de estar com o ambiente virtual ativado e 
 
 
 ```bash
-python3 main.py
+python3 src/main.py
 ```
 
 ## Contribuindo
