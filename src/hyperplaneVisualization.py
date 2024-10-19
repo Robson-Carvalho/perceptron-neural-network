@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 class Perceptron:
     def __init__(self):
@@ -40,7 +39,7 @@ class Perceptron:
 inputs = []
 outputs = []  
 
-with open('./training.txt', 'r') as file:
+with open('training.txt', 'r') as file:
     for line in file:
         values = line.split()
         data = [float(value) for value in values[:4]]  
@@ -50,7 +49,7 @@ with open('./training.txt', 'r') as file:
 inputTest = []
 outputTest = []  
 
-with open('./test.txt', 'r') as file:
+with open('test.txt', 'r') as file:
     for line in file:
         values = line.split()
         data = [float(value) for value in values[:4]]  

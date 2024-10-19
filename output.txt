@@ -1,0 +1,220 @@
+
+--------------------------------------------------
+|                    Modelo 1                    |
+--------------------------------------------------
+
+Pesos iniciais:
+w0: 0.8609
+w1: 0.2012
+w2: 0.0346
+Bias inicial: 0.6925
+
+Quantidade de épocas: 169
+
+Pesos finais:
+w0: 0.9483
+w1: 2.2567
+w2: -0.4810
+Bias final: -1.8675
+
+Base de testes:
+
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: -1.0  |   Saída: -1
+
+Amostras:
+
+Amostra 1 = -1
+Amostra 2 = 1
+Amostra 3 = 1
+Amostra 4 = 1
+Amostra 5 = 1
+Amostra 6 = 1
+Amostra 7 = -1
+Amostra 8 = 1
+Amostra 9 = -1
+Amostra 10 = -1
+
+--------------------------------------------------
+|                    Modelo 2                    |
+--------------------------------------------------
+
+Pesos iniciais:
+w0: 0.9173
+w1: 0.2759
+w2: 0.7744
+Bias inicial: 0.2965
+
+Quantidade de épocas: 134
+
+Pesos finais:
+w0: 0.8866
+w1: 2.1831
+w2: -0.4423
+Bias final: -1.6835
+
+Base de testes:
+
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: -1.0  |   Saída: -1
+
+Amostras:
+
+Amostra 1 = -1
+Amostra 2 = 1
+Amostra 3 = 1
+Amostra 4 = 1
+Amostra 5 = 1
+Amostra 6 = 1
+Amostra 7 = -1
+Amostra 8 = 1
+Amostra 9 = -1
+Amostra 10 = -1
+
+--------------------------------------------------
+|                    Modelo 3                    |
+--------------------------------------------------
+
+Pesos iniciais:
+w0: 0.1814
+w1: 0.3929
+w2: 0.0952
+Bias inicial: 0.5774
+
+Quantidade de épocas: 189
+
+Pesos finais:
+w0: 0.9634
+w1: 2.1989
+w2: -0.4932
+Bias final: -1.9426
+
+Base de testes:
+
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: -1.0  |   Saída: -1
+
+Amostras:
+
+Amostra 1 = -1
+Amostra 2 = 1
+Amostra 3 = 1
+Amostra 4 = 1
+Amostra 5 = 1
+Amostra 6 = 1
+Amostra 7 = -1
+Amostra 8 = 1
+Amostra 9 = -1
+Amostra 10 = -1
+
+--------------------------------------------------
+|                    Modelo 4                    |
+--------------------------------------------------
+
+Pesos iniciais:
+w0: 0.0529
+w1: 0.5853
+w2: 0.2892
+Bias inicial: 0.7452
+
+Quantidade de épocas: 201
+
+Pesos finais:
+w0: 0.9892
+w1: 2.3153
+w2: -0.4989
+Bias final: -1.9948
+
+Base de testes:
+
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: -1.0  |   Saída: -1
+
+Amostras:
+
+Amostra 1 = -1
+Amostra 2 = 1
+Amostra 3 = 1
+Amostra 4 = 1
+Amostra 5 = 1
+Amostra 6 = 1
+Amostra 7 = -1
+Amostra 8 = 1
+Amostra 9 = -1
+Amostra 10 = -1
+
+--------------------------------------------------
+|                    Modelo 5                    |
+--------------------------------------------------
+
+Pesos iniciais:
+w0: 0.6465
+w1: 0.1393
+w2: 0.2940
+Bias inicial: 0.4390
+
+Quantidade de épocas: 170
+
+Pesos finais:
+w0: 0.9498
+w1: 2.2041
+w2: -0.4810
+Bias final: -1.9410
+
+Base de testes:
+
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: 1.0   |   Saída: 1
+Resultado esperado: -1.0  |   Saída: -1
+Resultado esperado: -1.0  |   Saída: -1
+
+Amostras:
+
+Amostra 1 = -1
+Amostra 2 = 1
+Amostra 3 = 1
+Amostra 4 = 1
+Amostra 5 = 1
+Amostra 6 = 1
+Amostra 7 = -1
+Amostra 8 = 1
+Amostra 9 = -1
+Amostra 10 = -1
