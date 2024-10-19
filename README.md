@@ -6,7 +6,7 @@ Durante a fase de treinamento, o Perceptron ajusta seus pesos com base nos dados
 
 O Perceptron é incapaz de resolver problemas que não são linearmente separáveis. Isso significa que, se os dados de entrada não puderem ser divididos por uma linha (ou hiperplano em dimensões superiores), o modelo não conseguirá aprender a classificação correta. Um exemplo clássico é a função XOR, onde os pontos de dados não podem ser separados linearmente.
 
-### Problema
+## Problema
 
 A partir da análise de um processo de destilação fracionada de petróleo observou-se que determinado óleo poderia ser classificado em duas classes de pureza {C1 e C2} a partir da medição de três grandezas {x1, x2 e x3} que representam algumas das propriedades físico- químicas do óleo. A equipe de engenheiros e cientistas pretendem utilizar um Perceptron para executar a classificação automática destas duas classes.
 
@@ -14,7 +14,7 @@ Assim, baseado nas informações coletadas do processo formou-se o conjunto de t
 
 Utilizando o algoritmo supervisionado de Hebb (regra de Hebb) para classificação de padrões e assumindo a taxa de aprendizagem igual a 0,01, treine o modelo.
 
-### Informações sobre o repositório e utilização
+## Informações sobre o repositório e utilização
 
 Este repositório contém a implementação de um algoritmo de perceptron em Python, capaz de treinar um modelo simples com base em dados fornecidos e, posteriormente, testá-lo em um conjunto de dados de teste. A implementação utiliza as seguintes bibliotecas:
 
@@ -32,7 +32,7 @@ Para executar este código, é necessário ter o Python e as dependências neces
 - numpy
 - matplotlib
 
-## Configurando o Ambiente Virtual
+### Configurando o Ambiente Virtual
 
 O uso de um ambiente virtual é uma prática recomendada para gerenciar as dependências em projetos Python. As seções a seguir mostram como criar e ativar um ambiente virtual no Windows, Linux e macOS.
 
