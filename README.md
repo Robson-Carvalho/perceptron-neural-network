@@ -14,7 +14,7 @@ Assim, baseado nas informações coletadas do processo formou-se o conjunto de t
 
 Utilizando o algoritmo supervisionado de Hebb (regra de Hebb) para classificação de padrões e assumindo a taxa de aprendizagem igual a 0,01, treine o modelo.
 
-# Informações sobre o repositório e utilização
+### Informações sobre o repositório e utilização
 
 Este repositório contém a implementação de um algoritmo de perceptron em Python, capaz de treinar um modelo simples com base em dados fornecidos e, posteriormente, testá-lo em um conjunto de dados de teste. A implementação utiliza as seguintes bibliotecas:
 
